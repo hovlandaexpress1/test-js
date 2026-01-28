@@ -16,16 +16,3 @@ for( let i=1; i<788000; i+=2) {
 console.log(sum2);
 
 
-//upgift 2
-const MAX = 4_000_000;
-
-let a = 0;
-let b = 1;
-
-while (a <= MAX) {
-    console.log(a);
-
-    let next = a + b;
-    a = b;
-    b = next;
-}
