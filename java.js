@@ -6,7 +6,7 @@ for (let n = 1; n < m; n++) {
         sum = sum + n
     }
 }
-
+neg
 console.log(sum)
 
 let sum2 = 0
